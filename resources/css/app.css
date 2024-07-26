@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback');
+/* @import 'admin-lte/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css'; */
+@import 'admin-lte/dist/css/adminlte.min.css';
+@import 'admin-lte/plugins/fontawesome-free/css/all.min.css';
+
+body {
+  font-size: 1.2rem;
+  color: #000;
+}
+.btn, .form-control {
+  font-size: 1.2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+[class*=sidebar-dark-] {
+  background-color: #253956 !important;
+}
+
+[class*="sidebar-dark"] .brand-link,
+[class*="sidebar-dark"] .user-panel {
+  border-bottom: 1px solid #fff;
+}
+
+.card-title {
+  font-size: 1.35rem;
+}
+
+.btn-genashtim {
+  color: #fff;
+  /* Inherit from btn-primary */
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  /* Inherit from btn-primary */
+  background-color: #3a5e88;
+  border-color: #3a5e88;
+  padding: .375rem 1.0rem;
+  /* Inherit from btn-primary */
+  font-size: 1.2rem;
+  /* Inherit from btn-primary */
+  line-height: 1.5;
+  /* Inherit from btn-primary */
+  border-radius: .2rem;
+  /* Inherit from btn-primary */
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  /* Inherit from btn-primary */
+
+}
+
+.btn-genashtim:hover {
+  color: #fff;
+  /* Inherit from btn-primary */
+  box-shadow: 0 0 0 0.2rem rgba(58, 94, 136, 0.5);
+  /* Adjust box-shadow for hover */
+}
+
+/* Optional: Override specific styles from btn-primary if needed */
+.btn-genashtim:focus {
+  box-shadow: 0 0 0 0.2rem rgba(58, 94, 136, 0.5), 0 0 0 0.2rem #3a5e88;
+  /* Adjust focus ring */
+}
+
+.card-hrms:not(.card-outline) > .card-header {
+  background-color: #3a5e88;
+}
+.card-hrms:not(.card-outline) > .card-header, .card-hrms:not(.card-outline) > .card-header a {
+  color: #fff;
+}
+.callout.callout-hrms{
+  border-left-color: #3a5e88;
+}
+.card-hrms.card-outline {
+  border-top: 3px solid #3a5e88;
+}
+
+.main-footer {
+  color: #686868;
+}
+
+.breadcrumb-item.active {
+  color: #2f3133;
+}
+[class*="sidebar-dark"] .brand-link, [class*="sidebar-dark"] .brand-link .pushmenu {
+  color: rgba(255,255,255);
+}
+[class*="sidebar-dark-"] .sidebar a {
+  color: #f0f0f0;
+}
+.profile-employee-img {
+  border: 3px solid #adb5bd;
+  margin: 0 auto;
+  padding: 3px;
+  width: 180px;
+}
+
+.ant-select.form-control{
+  padding: 0;
+}
+
+.ant-select.form-control .ant-select-selector{
+  /* border: none !important; */
+  font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1.2rem !important;
+  height: 100% !important;
+  border-radius:4px ;
+}
+.switch_block.ant-switch{
+  display: block;
+}
+.ant-select.form-control .ant-select-selector .ant-select-item, .ant-select.form-control span.ant-select-tree-title, .ant-tree-select-dropdown .ant-select-tree, .ant-select-dropdown .ant-select-item, .antTable .ant-table-cell, .ant-transfer.hrms-transfer, .ant-transfer.hrms-transfer *, .ant-transfer.hrms-transfer .hrms-transfer-custom-item{
+  font-size: 1.2rem;
+  font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+ .switch_block.ant-switch .ant-switch-inner .ant-switch-inner-checked,.switch_block.ant-switch .ant-switch-inner .ant-switch-inner-unchecked{
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.antTable .ant-table-thead > tr > th{
+  background: #c6c6c6 ;
+}
+
+.ant-transfer.hrms-transfer .anticon.anticon-down.ant-dropdown-trigger.ant-transfer-list-header-dropdown {
+  display: none;
+}
+.ant-transfer.hrms-transfer .ant-transfer-operation .ant-btn{
+  height: 40px;
+}
+.ant-transfer.hrms-transfer .ant-transfer-operation .ant-btn .anticon{
+  font-size: 50px;
+}
+.hrms-table tr td ul{
+  margin: 0;
+  padding-left: 12px;
+  list-style: circle;
+}
+.hrms-profile .row dt, .hrms-profile .row dd{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.dl-contact dt{
+  font-weight: bold;
+}
+.dl-contact div.contact-last-item{
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 20px;
+}
